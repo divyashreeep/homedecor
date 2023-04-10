@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Gallery.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body><header>
+    <nav>
+        <div class="topnav">
+
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </button>
+                <div class="dropdown-content">
+
+                    <a>
+                        <div class="popup" onclick="myFunction()">
+                            About us
+                            <span class="popuptext" id="myPopup">
+                                About us<br />
+                                WE are the offline store , we offer you to design your home with<br />
+                                wide range of products available in both offline and online store.<br />
+                                You can also design your home using the pics provided in the <br />
+                                gallery
+                            </span>
+
+                        </div>
+                    </a>
+                    <a href="contactus.html">Contact us</a>
+                    <a href="feedbackform1.html">Feedback Form</a>
+                    <a href="adminlogin.html">Admin Page</a>
+                </div>
+            </div>
+
+            <a class="logo">Homedeco</a>
+            <a class="active" href="#home"> <i class="fa fa-shopping-cart"> </i> </a>
+            <a class="profile" href=""><i style="font-size:18.5px" class="fa">&#xf007;</i></a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+        </div>
+
+    </nav>
+    <hr>
+    <nav>
+        <div class="secondnav">
+            <a class="active" href="homepage3.html">Home</a>
+            <a href="shoppingcart03.html">Scent and Candels</a>
+            <a href="shoppingcart04.html">Lights</a>
+            <a href="shoppingcart05.html">Wall art</a>
+            <a href="Gallery.html">Gallery</a>
+        </div>
+    </nav>
+
+</header><!-- MAIN (Center website) -->
+    <div class="main">
+
+        
+        
+
+        <h2>Gallery</h2>
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('classic')">Classic</button>
+            <button class="btn" onclick="filterSelection('aesthetic')">Aesthetic</button>
+            <button class="btn" onclick="filterSelection('pop')">Pop</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="column classic">
+                <div class="content">
+                    
+                    <img src="Classic Bedroom Design (1).jpeg"  style="width:100%">
+                       
+                    <h4>Queen's room</h4>
+                    <p>Room</p>
+                </div>
+            </div>
+            <div class="column classic">
+                <div class="content">
+                    <img src="Classic Bedroom Design.jpeg"  style="width:100%">
+                    <h4>Classic king</h4>
+                    <p>Bedrrom inspo</p>
+                </div>
+            </div>
+            <div class="column classic">
+                <div class="content">
+                    <img src="Frankfurt Two Seat Sofa - Bottle Green _ Green sofa living room, Classy living room, Green living room decor.jpeg"  style="width:100%">
+                    <h4>Classic and rich</h4>
+                    <p>Drawing room</p>
+                </div>
+            </div>
+
+            <div class="column aesthetic">
+                <div class="content">
+                    <img src="decor _ sofa _ living room decor _ living room design _ living room decoration _ living room ideas _.jpeg"  style="width:100%">
+                    <h4>White aesthetic</h4>
+                    <p>Living room</p>
+                </div>
+            </div>
+            <div class="column aesthetic">
+                <div class="content">
+                    <img src="Pin by Chuga on • r o o m _ Bedroom interior, Apartment inspiration, Dream house rooms.jpeg"  style="width:100%">
+                    <h4>Beige aesthetic</h4>
+                    <p>Living room</p>
+                </div>
+            </div>
+            <div class="column aesthetic">
+                <div class="content">
+                    <img src="download (8).jpeg"  style="width:100%">
+                    <h4>Half-white</h4>
+                    <p>Bedroom inspo</p>
+                </div>
+            </div>
+
+            <div class="column pop">
+                <div class="content">
+                    <img src="Tour a Groovy Farmhouse Compound in Upstate New York That Features Eight Additional Structures.png"  style="width:100%">
+                    <h4>POP kid</h4>
+                    <p>pop culture home</p>
+                </div>
+            </div>
+            <div class="column pop">
+                <div class="content">
+                    <img src="Inside Jonathan Adler and Simon Doonan's Glitz West Village Makeover.jpeg"  style="width:100%">
+                    <h4>Pop art collection</h4>
+                    <p>Living room</p>
+                </div>
+            </div>
+            <div class="column pop">
+                <div class="content">
+                    <img src="TFOD Profile Of The Week_ Fabien Charuau, Photographer, Mumbai.jpeg"  style="width:100%">
+                    <h4>Pop accesorised</h4>
+                    <p>Hall decor</p>
+                </div>
+            </div>
+            <!-- END GRID -->
+        </div>
+
+        <!-- END MAIN -->
+    </div>
+    <script src="Gallery.js"></script>
+</body>
+</html>

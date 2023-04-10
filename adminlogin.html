@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login Page</title>
+    <link rel="stylesheet" href="adminlogin.css" />
+</head>
+<body>
+    <h1>Admin Login</h1>
+    <form method="post" action="http://localhost/adminlogin.php">
+        <fieldset>
+            <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+            <label>Enter Password: <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required /></label>
+        </fieldset>
+        
+        <input type="submit" value="Login" />
+    </form>
+</body>
+</html>

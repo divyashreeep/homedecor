@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginpage.css" />
+</head>
+<body>
+    <h1>Login Page</h1>
+    <form method="post" action="http://localhost/login.php">
+        <fieldset>
+            <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+            <label >Enter Password: <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required /></label>
+        </fieldset>
+        <p>New user?<a href="D:\homedecorproject\Registrationformhtml.html">Register</a></p>
+        <a href="homepage3.html" style="text-decoration:none">
+        <input type="submit" value="Login" />
+            </a>
+    </form>
+</body>
+</html>
